@@ -1,0 +1,27 @@
+Tipos de datos en python
+
+True or Faslse (bool)
+"Hola Mundo"   (string "str")
+123            (interger "int")
+3.14159        (float)
+14 + 12j       (complejo "complex")
+
+Operaciones aritmeticas:
+
+a  +  b suma
+a  -  b resta
+a  /  b division
+a  *  b multiplicacion
+a  ** b potencia
+a  ** (x/z) raiz
+a  // b division (solo parte entera) 
+a  %  b division (resto de la division)
+
+Operaciones de comparacion:
+
+== (Igualdad)
+!= (Desigualdad)
+>  (Mayor)
+>= (Mayor o igual)
+<  (Menor)
+<= (Menor o igual)
