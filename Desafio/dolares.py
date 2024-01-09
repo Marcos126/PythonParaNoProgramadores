@@ -17,16 +17,29 @@ diciembre = 900
 """"
 Operacion de promedio del sueldo del empleado
 """
-sueldo_promedio = (enero + febrero + marzo + abril + mayo + junio + julio + agosto + septiembre + octubre + noviembre + diciembre )/ 12
+sueldo_promedio = (
+    enero
+    + febrero
+    + marzo
+    + abril
+    + mayo
+    + junio
+    + julio
+    + agosto
+    + septiembre
+    + octubre
+    + noviembre
+    + diciembre
+) / 12
 
 """ 
 Declaracion de condicionales para saber si el sueldo de la persona es alto o bajo
 """
 
-if (sueldo_promedio < 300):
+if sueldo_promedio < 300:
     print("En promedio cobra por debajo de lo normal")
-elif(sueldo_promedio >=300 or sueldo_promedio <=900):
+elif sueldo_promedio >= 300 or sueldo_promedio <= 900:
     print("En promedio cobra un sueldo normal")
-elif(sueldo_promedio > 900):
+elif sueldo_promedio > 900:
     print("En promedio cobra un sueldo mejor que lo normal")
 print(int(sueldo_promedio))
