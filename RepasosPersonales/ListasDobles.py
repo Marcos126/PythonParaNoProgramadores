@@ -14,5 +14,3 @@ listaApellidos.append("Natale")
 while contador != len(listaNombres):
     print(listaNombres[contador], listaApellidos[contador])
     contador = contador + 1
-
-print("done!")
