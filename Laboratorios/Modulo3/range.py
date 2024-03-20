@@ -1,3 +1,4 @@
+#Range se usa para ocupar un rango, empieza en el numero que empieza y termina en el numero seleccionado - 1 
 inicio = input("Ingrese el inicio del rango: ")
 final = input("Ingrese el final del rango: ")
 multiplos3 = []
